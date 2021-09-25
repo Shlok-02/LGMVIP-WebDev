@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.navbar{
+    padding: 20px 0px;
+    background-image: linear-gradient(
+        110deg, #400ad4,#ff043a, #400ad4);
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.heading{
+    width: 70%;
+    margin-left: 70px;
+}
+
+.btn button{
+    padding: 15px 25px;
+    border:none;
+    background-color: #333;
+    color: white;
+    font-size: 17px;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgb(70, 69, 69);
+}
+
+.wrap{
+    background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg), linear-gradient(
+        110deg, #f93d66, #6d47d9);
+            background-size: 340px, auto;
+            min-height: calc(110vh - 100px);
+}
+
+.users{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px 0px;
+    
+}
+
+.card{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: white;
+    margin: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    line-height: 1.5;
+    height: 300px;
+}
+
+.card img{
+    border-radius: 80px;
+    padding-bottom: 10px;
+}
+
+.card h3{
+    font-size: 24px;
+}
+
+.card p{
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+}
+
+
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 15px solid rgb(71, 5, 255);
+    border-top: 15px solid rgb(171, 11, 245);
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+  
+  @keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+  }
+  
+  .display {
+   display: block !important;
+  }
+
+
